@@ -1,0 +1,3 @@
+[submodule "nvim"]
+	path = nvim
+	url = C:\\Users\\eidin\\AppData\\Local\\nvim
