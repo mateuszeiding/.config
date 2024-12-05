@@ -1,3 +1,6 @@
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/mateuszeiding/nvim
+[submodule "win-terminal"]
+	path = win-terminal
+	url = https://github.com/mateuszeiding/win-terminal.git
