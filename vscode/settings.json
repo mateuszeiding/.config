@@ -28,6 +28,12 @@
     "sound": "off",
     "announcement": "off"
   },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    ".gitignore": ".git*",
+    "tsconfig.json": "tsconfig.*.json",
+    "vite.config.ts": "vite.config.*.ts, .prettierrc*, biome.json, .editorconfig, eslint*"
+  },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.accessibilitySupport": "off",
   "git.replaceTagsWhenPull": true,
@@ -39,7 +45,6 @@
   "editor.inlayHints.enabled": "on",
   "vue.inlayHints.inlineHandlerLeading": true,
   "vue.inlayHints.optionsWrapper": true,
-  "vue.autoInsert.dotValue": true,
   "vue.inlayHints.destructuredProps": true,
   "vue.inlayHints.missingProps": true,
   "vue.inlayHints.vBindShorthand": true,
@@ -55,7 +60,6 @@
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
   "workbench.statusBar.visible": true,
   "editor.minimap.enabled": false,
-  "breadcrumbs.enabled": false,
   "vim.leader": " ",
   "vim.insertModeKeyBindings": [
     {
@@ -132,5 +136,10 @@
       // Delete selection without yanking
     }
   ],
-  "eslint.format.enable": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
 }
