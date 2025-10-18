@@ -4,3 +4,6 @@
 [submodule "win-terminal"]
 	path = win-terminal
 	url = https://github.com/mateuszeiding/win-terminal.git
+[submodule "scss"]
+	path = scss
+	url = https://github.com/mateuszeiding/scss.git
